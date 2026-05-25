@@ -47,14 +47,14 @@ uas_kbp/
     │   ├── User.php          # Class User (autentikasi & kelola user)
     │   ├── Transaksi.php     # Class Transaksi (parent/abstract)
     │   ├── Pemasukan.php     # Class Pemasukan (child - inheritance)
-    │   ├── Pengeluaran.php    # Class Pengeluaran (child - inheritance)
+    │   ├── Pengeluaran.php   # Class Pengeluaran (child - inheritance)
     │   └── KasAsrama.php     # Class KasAsrama (encapsulation saldo)
     ├── pages/
     │   ├── login.php         # Halaman login
     │   ├── logout.php        # Proses logout (destroy session)
     │   ├── dashboard.php     # Dashboard + grafik statistik
     │   ├── pemasukan.php     # CRUD pemasukan
-    │   ├── pengeluaran.php    # CRUD pengeluaran
+    │   ├── pengeluaran.php   # CRUD pengeluaran
     │   ├── laporan.php       # Laporan keuangan + filter + grafik
     │   ├── users.php         # Kelola user (admin only)
     │   └── sidebar.php       # Komponen navigasi sidebar
